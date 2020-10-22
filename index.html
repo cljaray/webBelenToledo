@@ -54,7 +54,10 @@
                     </div>
                 </div>
                 <img class="img-fluid mb-5" src="assets/img/portadadiscosmall.jpg" alt="" />
-                <iframe src="https://open.spotify.com/embed/album/0Cn6TT76Mc2Jdfj32DMolW" id="about" class="mb-5 border-primary imgBorder" style="width:80%;" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <noscript class="loading-lazy">
+                    <iframe src="https://open.spotify.com/embed/album/0Cn6TT76Mc2Jdfj32DMolW" loading='lazy' id="about" class="mb-5 border-primary imgBorder" style="width:80%;" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+                </noscript>
                 <div class="col-lg-8 mx-auto mb-n5">
                     <p class="text-white">
                         Belén Toledo, chilena (Santiago de Chile), inicia sus primeros pasos musicales desde pequeña incursionando en el piano 
@@ -210,6 +213,7 @@
         <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © www.belentoledo.cl 2020</div></footer>
         <!-- Bootstrap core JS-->
          <!-- Font Awesome icons (free version)-->
+         <script src="js/lazyloadingpolyfill.js"></script>
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
