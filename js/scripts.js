@@ -4,7 +4,7 @@
     * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE)
     */
 
-    AOS.init();
+    
     (function ($) {
     "use strict"; // Start of use strict
 
