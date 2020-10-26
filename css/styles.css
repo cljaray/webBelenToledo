@@ -10313,7 +10313,13 @@ figcaption {
 }
 .bio-section p {
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2rem;  
+}
+
+.bioExtracto {
+  background-color: #a1648d6e;
+  border-radius: 10px;
+  padding: 50px;
 }
 
 .projects-section {

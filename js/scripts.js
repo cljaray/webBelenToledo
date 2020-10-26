@@ -3,6 +3,8 @@
     * Copyright 2013-2020 Start Bootstrap
     * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE)
     */
+
+    AOS.init();
     (function ($) {
     "use strict"; // Start of use strict
 
