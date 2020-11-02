@@ -2497,12 +2497,12 @@ fieldset:disabled a.btn {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #548b87;
+  background-color: var(--purple);
   border-color: #4f837f;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #548b87;
+  background-color: var(--purple);
   border-color: #4f837f;
   box-shadow: 0 0 0 0.2rem rgba(123, 175, 172, 0.5);
 }
@@ -10234,7 +10234,7 @@ figcaption {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/Spotifyblack.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/potify7.png");
   background-position: left;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10301,12 +10301,12 @@ figcaption {
 }
 
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  padding-top: 5rem;
+  background: black;
 }
-.about-section p {
+/* .about-section p {
   margin-bottom: 5rem;
-}
+} */
 .bio-section {
   padding-top: 2rem;
   background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
@@ -10317,13 +10317,14 @@ figcaption {
 }
 
 .bioExtracto {
-  background-color: #a1648d6e;
-  border-radius: 10px;
+  background-color: var(--primary);
   padding: 50px;
+  -webkit-box-shadow: 20px 20px 0px 0px #e6a8ff, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 20px 20px 0px 0px #e6a8ffbb, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
 .projects-section {
-  padding: 3rem 0;
+  padding: 0 0 3rem 0;
 }
 .projects-section .featured-text {
   padding: 2rem;

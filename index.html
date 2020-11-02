@@ -6,8 +6,10 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Belen Toledo</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/assets/favicon/site.webmanifest">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
        
@@ -46,7 +48,18 @@
             </div>
         </header>
         <!-- About-->
-        <section class="about-section text-center">
+        <section class="about-section text-center mb-n5"> 
+            <div class="container">
+                <h2 class="text-white text-center text-uppercase">Próximo estreno</h2>
+                <p class="text-white text-center">Lunes 9 de noviembre, por mi canal de youtube.</p>
+                <p class="text-white text-center">Saving all my love - Whitney Houston - Cover</p>
+                <a class="btn btn-primary js-scroll-trigger mt-2 mb-3" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/belentoledochile?sub_confirmation=1">Suscribirse</a>
+
+                <img class="img-fluid mb-5" data-aos="fade-zoom-in" data-aos-duration="1000" src="assets/img/lanzamiento.jpg" alt="" />
+
+            </div>
+        </section>
+        <section class="about-section text-center mt-n5">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
@@ -56,27 +69,35 @@
                         </h1>
                     </div>
                 </div>
-                <img class="img-fluid mb-5" data-aos="zoom-in" data-aos-duration="3000" src="assets/img/portadadiscosmall.jpg" alt="" />
-                <noscript class="loading-lazy">
-                    <iframe src="https://open.spotify.com/embed/album/0Cn6TT76Mc2Jdfj32DMolW" data-aos="fade-up" data-aos-duration="1500" loading='lazy' id="about" class="mb-5 border-primary imgBorder col-12 col-xl-6 col-lg-6"  height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <img class="img-fluid mb-5" data-aos="fade-zoom-in" data-aos-duration="1000" src="assets/img/portadadiscosmall.jpg" alt="" />
+                <div class="row">
+                    <noscript class="loading-lazy">
+                        <iframe src="https://open.spotify.com/embed/album/0Cn6TT76Mc2Jdfj32DMolW" data-aos="fade-up" data-aos-duration="1500" loading='lazy' id="about" class="mb-5 col-12 col-xl-6 col-lg-6"  height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    
+                    </noscript>
+                    <div class="col-12 col-xl-6 col-lg-6 d-flex flex-column align-items-center">
+                        <div class="mx-auto bioExtracto" data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-back"
+                        data-aos-duration="1000"
+                        data-aos-offset="0">
+                            <p class="text-white">
+                                Belén Toledo, chilena (Santiago de Chile), inicia sus primeros pasos musicales desde pequeña incursionando en el piano 
+                                funcional con su mentora y primera profesora de música Marcela Bravo (profesora y Licenciada en música de la Universidad 
+                                de Chile) a la edad de 10 años. Posteriormente a esto...</p>
+                        </div>
+                        <a href="/bio.html" class="btn btn-primary mx-auto my-5 align-self-end">Leer más...</a>
 
-                </noscript>
-                <div class="col-lg-8 mx-auto mb-n5">
-                    <p class="text-white bioExtracto" data-aos="fade-zoom-in"
-                    data-aos-easing="ease-in-back"
-                    data-aos-delay="600"
-                    data-aos-offset="0">
-                        Belén Toledo, chilena (Santiago de Chile), inicia sus primeros pasos musicales desde pequeña incursionando en el piano 
-                        funcional con su mentora y primera profesora de música Marcela Bravo (profesora y Licenciada en música de la Universidad 
-                        de Chile) a la edad de 10 años. Posteriormente a esto...
-                    </p>
+                    </div>
+
                 </div>
-                <a href="/bio.html" class="btn btn-primary mx-auto mb-5">Leer más...</a>
             </div>
         </section>
         <!-- Projects-->
-        <section class="projects-section bg-light" id="videos">
-            
+        <section class="projects-section bg-light" id="videos">    
+            <noscript class="loading-lazy">
+                <img loading='lazy' class="img-fluid mb-5" data-aos="fade-zoom-in" data-aos-duration="1000" src="assets/img/segundaportada.jpg" alt="BelenMigas" />
+            </noscript>
+        
             <div class="container">
                 <h2 class="text-center mb-5">VIDEOS</h2>                
                 <!-- Featured Project Row-->               
@@ -101,7 +122,12 @@
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
                             <h4>Migas</h4>
-                            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                            <p class="text-black-50 mb-0">Análisis sobre las Migas que nos estamos comiendo hace años en Chile, bajo un sistema de desigualdad brutal y abusivo. 
+                                <br> Dirección y montaje:Juan Pablo Rodríguez.
+                                <br> Asistente de dirección: Claudio Araya.
+                                <br> Producción: Gina Franzani.
+                                <br> Asistente de producción: José Venegas.
+                                <br> Coreografía: Camila Azúa. </p>
                         </div>
                     </div>
                 </div>
@@ -127,7 +153,8 @@
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
                                     <h4 class="text-white">Silentes</h4>
-                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                    <p class="mb-0 text-white-50">Dedicado a las mujeres que se fueron "Silentes" de este mundo en manos de un femicidio, con la actuación de Antonella Orsini.</p>
+                                    <p class="mb-0 text-white-50">Dirección: Juan Pablo Rodríguez, <a href="http://www.elbravoproducciones.com/" target="_blank" rel="noopener noreferrer">El Bravo producciones.</a>  <br>Producción: Gina Franzani.</p>
                                     <hr class="d-none d-lg-block mb-0 ml-0" />
                                 </div>
                             </div>
@@ -153,8 +180,8 @@
                         <div class="bg-black text-center h-100 project " data-aos="fade-down" data-aos-duration="1000" data-aos-easing="linear" >
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Sabes..</h4>
-                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+                                    <h4 class="text-white">Sabes...</h4>
+                                    <p class="mb-0 text-white-50">Sabes que nada importa al fin... dedicado a mi Padre, que se resistió a la muerte con una fuerza envidiable. <br>Dirección, grabación y edición audiovisual: <a href="https://www.instagram.com/laalboradafilms/" target="_blank" rel="noopener noreferrer">La Alborada Films.</a>  <br>Maquillaje y peinado: <a href="https://www.instagram.com/sooooooooooooooooooool/" target="_blank" rel="noopener noreferrer">Solange Insamí Figueroa.</a> </p>
                                     <hr class="d-none d-lg-block mb-0 mr-0" />
                                 </div>
                             </div>
@@ -164,6 +191,31 @@
             </div>
         </section>
         <!-- Signup-->
+        <section class="contact-section bg-black">
+            <h2 class="text-center text-white text-uppercase my-5">Galería</h2>
+            <div class="row mx-3" data-aos="zoom-fade-in" data-aos-duration="2000">
+                <noscript class="loading-lazy">
+                    <img class="col-6 img-fluid" src="/assets/img/galeria4.jpg"></img>
+                </noscript>
+                <noscript class="loading-lazy">
+                    <img class="col-6 img-fluid " src="/assets/img/_DSC5498.jpg"></img>
+                </noscript>
+                <noscript class="loading-lazy">
+                    <img class="col-12 img-fluid my-2" src="/assets/img/galeriabelen2.jpg"></img>
+                </noscript>
+                <noscript class="loading-lazy">
+                    <img class="col-6 img-fluid my-2" src="/assets/img/galeriabelen3b.jpg"></img>
+                </noscript>
+                <div class="row col-6 my-2 align-items-center">
+                    <noscript class="loading-lazy">
+                        <img class="img-fluid align-self-start " src="/assets/img/galeriabelen5.jpg"></img>
+                    </noscript>
+                    <noscript class="loading-lazy">
+                        <img class="img-fluid align-self-end" src="/assets/img/_DSC3867.jpg"></img>
+                    </noscript>
+                </div>
+            </div>
+        </section>
         <section class="signup-section" id="signup">
             <div class="container">
                 <div class="row">
@@ -178,6 +230,7 @@
             </div>
         </section>
         <!-- Contact-->
+        
         <section class="contact-section bg-black">
             <div class="container">
                 <div class="row">
@@ -197,7 +250,7 @@
                                 <i class="fab fa-youtube text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Youtube</h4>
                                 <hr class="my-4" />
-                                <div class="small text-black-50"><a href="https://www.youtube.com/belentoledo.cl" target="_blank" class="stretched-link">www.youtube.com/belentoledo.cl</a></div>
+                                <div class="small text-black-50"><a href="https://www.youtube.com/belentoledochile" target="_blank" class="stretched-link">www.youtube.com/belentoledochile</a></div>
                             </div>
                         </div>
                     </div>
@@ -215,7 +268,7 @@
                 <div class="social d-flex justify-content-center">
                     <a class="mx-2" href="https://www.instagram.com/belentoledo.cl" target="_blank"><i class="fab fa-instagram"></i></a>
                     <a class="mx-2" href="https://www.fb.com/belentoledo.cl " target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="https://www.youtube.com/belentoledo.cl" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a class="mx-2" href="https://www.youtube.com/belentoledochile" target="_blank"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
         </section>
