@@ -4,6 +4,8 @@
     * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE)
     */
 
+
+
     
     (function ($) {
     "use strict"; // Start of use strict
@@ -60,3 +62,19 @@
 })(jQuery); // End of use strict
 
 
+//countdown js 
+
+    const timeLeft = (new Date(2020,10,9,21,0,0) - new Date()) / 1000
+    
+    var timer = new easytimer.Timer();
+    timer.start({countdown: true, startValues: {seconds: timeLeft }, precision: 'secondTenths'});
+
+    $('#countdownExample .values').html(timer.getTimeValues().toString());
+
+    timer.addEventListener('secondTenthsUpdated', function (e) {
+        $('#countdownExample .values').html(timer.getTimeValues().toString());
+    });
+
+    timer.addEventListener('targetAchieved', function (e) {
+        $('#countdownExample .values').html('');
+    });
