@@ -63,7 +63,7 @@
 
 
 //countdown js 
-
+/* 
     const timeLeft = (new Date(2020,10,9,21,0,0) - new Date()) / 1000
     
     var timer = new easytimer.Timer();
@@ -77,4 +77,4 @@
 
     timer.addEventListener('targetAchieved', function (e) {
         $('#countdownExample .values').html('');
-    });
+    }); */
